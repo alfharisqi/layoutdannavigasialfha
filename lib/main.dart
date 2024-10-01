@@ -8,13 +8,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter layout: Nama dan NIM Anda',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-        body: const Center(
-          child: Text('Hello World'),
         ),
       ),
     );
